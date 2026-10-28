@@ -1,0 +1,10 @@
+services:
+  app:
+    build: .
+    container_name: document_processor
+    ports:
+      - "8501:8501"  # Streamlit UI: http://localhost:8501
+    environment:
+      TZ: ${TZ:-Asia/Yekaterinburg}  # часовой пояс для поля processed_at
+      LOG_LEVEL: INFO
+    restart: unless-stopped

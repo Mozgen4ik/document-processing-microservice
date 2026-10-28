@@ -1,0 +1,12 @@
+.env
+*.gz
+.venv/
+__pycache__/
+.gitlab-ci.yml
+
+*.pdf
+pdf_merge.py 
+files/
+Input/
+Output/
+test_files/

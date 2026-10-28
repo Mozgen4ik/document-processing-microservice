@@ -1,0 +1,19 @@
+# Исключаем виртуальное окружение Python
+.venv
+venv/
+*.venv
+
+# Исключаем файлы Git
+.git
+.gitignore
+
+# Исключаем кеш Python
+__pycache__/
+
+# Исключаем файлы IDE
+.idea/
+.vscode/
+
+files/
+Input/
+Output/
